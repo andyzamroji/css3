@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Belajar CSS3</title>
+
+    <style media="screen">
+      #Box{
+        height: 100px;
+        width: 100px;
+        background: blue;
+        border-radius: 10px;
+      }
+      #Square{
+        height: 100px;
+        width: 100px;
+        background: red;
+        border-radius: 50%;
+      }
+      img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+      }
+      #Box2{
+        height: 100px;
+        width: 100px;
+        background: green;
+        /* box shadow : horizontal vertical spread color */
+        box-shadow: 5px 10px 8px black;
+      }
+      #Box3{
+        height: 100px;
+        width: 100px;
+        border: 5px solid black;
+        background: green;
+        box-sizing: border-box;
+      }
+      #Box4{
+        height: 100px;
+        width: 100px;
+        background: green;
+      }
+    </style>
+
+  </head>
+  <body>
+    <h2>Border radius</h2>
+    <div id="Box"></div>
+    <br>
+    <div id="Square"></div>
+    <br>
+    <img src="LHD.png" alt="">
+
+    <h2>Box shadow</h2>
+    <div id="Box2"></div>
+
+    <h2>Box sizing</h2>
+    <div id="Box3"></div>
+    <div id="Box4"></div>
+  </body>
+</html>
